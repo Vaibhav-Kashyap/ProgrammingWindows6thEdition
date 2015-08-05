@@ -1,0 +1,27 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SharedBrush">
+
+    <x:String x:Key="AppName">Shared Brush App</x:String>
+
+    <LinearGradientBrush x:Key="RainbowBrush">
+        <GradientStop Offset="0" Color="Red" />
+        <GradientStop Offset="0.08" Color="OrangeRed" />
+        <GradientStop Offset="0.17" Color="Orange" />
+        <GradientStop Offset="0.25" Color="Gold" />
+        <GradientStop Offset="0.33" Color="Yellow" />
+        <GradientStop Offset="0.41" Color="GreenYellow" />
+        <GradientStop Offset="0.5" Color="Green" />
+        <GradientStop Offset="0.58" Color="LightSeaGreen" />
+        <GradientStop Offset="0.67" Color="Blue" />
+        <GradientStop Offset="0.74" Color="DarkSlateBlue" />
+        <GradientStop Offset="0.83" Color="Indigo" />
+        <GradientStop Offset="0.91" Color="DarkMagenta" />
+        <GradientStop Offset="1" Color="Violet" />
+    </LinearGradientBrush>
+
+    <FontFamily x:Key="FontFamily">Times New Roman</FontFamily>
+    <x:Double x:Key="FontSize">96</x:Double>
+
+</ResourceDictionary>
