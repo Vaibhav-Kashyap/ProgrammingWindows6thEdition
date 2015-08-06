@@ -35,12 +35,11 @@ namespace Spiral
         /// </summary>
         private async void LaunchSpiral()
         {
-            int[] widths = new[] {45, 90, 135, 180, 225, 270, 315, 360};
-            foreach (int width in widths)
+            for (int i = 10; i <= 135; i++)
             {
                 Polyline.Points.Clear();
-                DrawSpiral(width);
-                await Task.Delay(TimeSpan.FromSeconds(5));
+                DrawSpiral(i);
+                await Task.Delay(TimeSpan.FromSeconds(0.01));
             }
         }
 
