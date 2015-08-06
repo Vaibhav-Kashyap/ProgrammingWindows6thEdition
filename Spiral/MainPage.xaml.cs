@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,12 +27,35 @@ namespace Spiral
         public MainPage()
         {
             this.InitializeComponent();
+            LaunchSpiral();
+        }
+
+        /// <summary>
+        /// Draw a spiral with expanding distances
+        /// </summary>
+        private async void LaunchSpiral()
+        {
+            int[] widths = new[] {45, 90, 135, 180, 225, 270, 315, 360};
+            foreach (int width in widths)
+            {
+                Polyline.Points.Clear();
+                DrawSpiral(width);
+                await Task.Delay(TimeSpan.FromSeconds(5));
+            }
+        }
+
+        /// <summary>
+        /// Generate points on Polyline to draw a spiral.
+        /// </summary>
+        /// <param name="distance"></param>
+        private void DrawSpiral(int distance)
+        {
             for (int angle = 0; angle < 3600; angle++)
             {
-                double radians = Math.PI*angle/180;
-                double radius = angle / 10;
-                double x = 360 + radius * Math.Sin(radians);
-                double y = 360 - radius * Math.Cos(radians);
+                double radians = Math.PI*angle/distance;
+                double radius = angle/10;
+                double x = 360 + radius*Math.Sin(radians);
+                double y = 360 - radius*Math.Cos(radians);
                 Polyline.Points.Add(new Point(x, y));
             }
         }
