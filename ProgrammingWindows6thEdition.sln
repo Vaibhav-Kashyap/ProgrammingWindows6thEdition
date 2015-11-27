@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiral", "Spiral\Spiral.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageBrushedSpiral", "ImageBrushedSpiral\ImageBrushedSpiral.csproj", "{5E9CB95E-1EEA-4B28-A917-737F9B5ED6CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloVectorGraphics", "HelloVectorGraphics\HelloVectorGraphics.csproj", "{98CF029A-2CD4-4292-B663-19FCC56B49EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorGraphicsStretched", "VectorGraphicsStretched\VectorGraphicsStretched.csproj", "{EB72B24E-4863-4883-9EE2-1D686C988D53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -73,6 +77,42 @@ Global
 		{5E9CB95E-1EEA-4B28-A917-737F9B5ED6CD}.Release|x86.ActiveCfg = Release|x86
 		{5E9CB95E-1EEA-4B28-A917-737F9B5ED6CD}.Release|x86.Build.0 = Release|x86
 		{5E9CB95E-1EEA-4B28-A917-737F9B5ED6CD}.Release|x86.Deploy.0 = Release|x86
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Debug|ARM.Build.0 = Debug|ARM
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Debug|ARM.Deploy.0 = Debug|ARM
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Debug|x64.ActiveCfg = Debug|x64
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Debug|x64.Build.0 = Debug|x64
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Debug|x64.Deploy.0 = Debug|x64
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Debug|x86.ActiveCfg = Debug|x86
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Debug|x86.Build.0 = Debug|x86
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Debug|x86.Deploy.0 = Debug|x86
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Release|ARM.ActiveCfg = Release|ARM
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Release|ARM.Build.0 = Release|ARM
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Release|ARM.Deploy.0 = Release|ARM
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Release|x64.ActiveCfg = Release|x64
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Release|x64.Build.0 = Release|x64
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Release|x64.Deploy.0 = Release|x64
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Release|x86.ActiveCfg = Release|x86
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Release|x86.Build.0 = Release|x86
+		{98CF029A-2CD4-4292-B663-19FCC56B49EC}.Release|x86.Deploy.0 = Release|x86
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Debug|ARM.Build.0 = Debug|ARM
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Debug|ARM.Deploy.0 = Debug|ARM
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Debug|x64.ActiveCfg = Debug|x64
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Debug|x64.Build.0 = Debug|x64
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Debug|x64.Deploy.0 = Debug|x64
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Debug|x86.ActiveCfg = Debug|x86
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Debug|x86.Build.0 = Debug|x86
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Debug|x86.Deploy.0 = Debug|x86
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Release|ARM.ActiveCfg = Release|ARM
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Release|ARM.Build.0 = Release|ARM
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Release|ARM.Deploy.0 = Release|ARM
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Release|x64.ActiveCfg = Release|x64
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Release|x64.Build.0 = Release|x64
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Release|x64.Deploy.0 = Release|x64
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Release|x86.ActiveCfg = Release|x86
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Release|x86.Build.0 = Release|x86
+		{EB72B24E-4863-4883-9EE2-1D686C988D53}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
