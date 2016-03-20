@@ -8,21 +8,15 @@
     mc:Ignorable="d"
     FontSize="48">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Text="Left / Top" HorizontalAlignment="Left" VerticalAlignment="Top" Tapped="TextBlock_OnTapped" />
-        <TextBlock Text="Centre / Top" HorizontalAlignment="Center" VerticalAlignment="Top" Tapped="TextBlock_OnTapped" />
-        <TextBlock Text="Right / Top" HorizontalAlignment="Right" VerticalAlignment="Top" Tapped="TextBlock_OnTapped" />
-        <TextBlock Text="Left / Centre" HorizontalAlignment="Left" VerticalAlignment="Center"
-                   Tapped="TextBlock_OnTapped" />
-        <TextBlock Text="Centre / Centre" HorizontalAlignment="Center" VerticalAlignment="Center"
-                   Tapped="TextBlock_OnTapped" />
-        <TextBlock Text="Right / Centre" HorizontalAlignment="Right" VerticalAlignment="Center"
-                   Tapped="TextBlock_OnTapped" />
-        <TextBlock Text="Left / Bottom" HorizontalAlignment="Left" VerticalAlignment="Bottom"
-                   Tapped="TextBlock_OnTapped" />
-        <TextBlock Text="Centre / Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom"
-                   Tapped="TextBlock_OnTapped" />
-        <TextBlock Text="Right / Bottom" HorizontalAlignment="Right" VerticalAlignment="Bottom"
-                   Tapped="TextBlock_OnTapped" />
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Tapped="TextBlock_OnTapped">
+        <TextBlock Text="Left / Top" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <TextBlock Text="Centre / Top" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Text="Right / Top" HorizontalAlignment="Right" VerticalAlignment="Top" />
+        <TextBlock Text="Left / Centre" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <TextBlock Text="Centre / Centre" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <TextBlock Text="Right / Centre" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <TextBlock Text="Left / Bottom" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+        <TextBlock Text="Centre / Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+        <TextBlock Text="Right / Bottom" HorizontalAlignment="Right" VerticalAlignment="Bottom" />
     </Grid>
 </Page>
