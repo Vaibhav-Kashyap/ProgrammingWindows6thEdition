@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 3 - Event Handling"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tapped Event", "Tapped Event\Tapped Event.csproj", "{09CB22DB-519B-4FD1-AB12-712878B10F14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutedEvents0", "RoutedEvents0\RoutedEvents0.csproj", "{3A36F458-7434-4AC5-850E-E3525B56B65A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,11 +151,32 @@ Global
 		{09CB22DB-519B-4FD1-AB12-712878B10F14}.Release|x86.ActiveCfg = Release|x86
 		{09CB22DB-519B-4FD1-AB12-712878B10F14}.Release|x86.Build.0 = Release|x86
 		{09CB22DB-519B-4FD1-AB12-712878B10F14}.Release|x86.Deploy.0 = Release|x86
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Debug|ARM.Build.0 = Debug|ARM
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Debug|x64.ActiveCfg = Debug|x64
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Debug|x64.Build.0 = Debug|x64
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Debug|x64.Deploy.0 = Debug|x64
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Debug|x86.ActiveCfg = Debug|x86
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Debug|x86.Build.0 = Debug|x86
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Debug|x86.Deploy.0 = Debug|x86
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Release|Any CPU.ActiveCfg = Release|x86
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Release|ARM.ActiveCfg = Release|ARM
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Release|ARM.Build.0 = Release|ARM
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Release|ARM.Deploy.0 = Release|ARM
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Release|x64.ActiveCfg = Release|x64
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Release|x64.Build.0 = Release|x64
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Release|x64.Deploy.0 = Release|x64
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Release|x86.ActiveCfg = Release|x86
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Release|x86.Build.0 = Release|x86
+		{3A36F458-7434-4AC5-850E-E3525B56B65A}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{09CB22DB-519B-4FD1-AB12-712878B10F14} = {89E2B382-DBF8-48A4-AF6C-15773410363C}
+		{3A36F458-7434-4AC5-850E-E3525B56B65A} = {89E2B382-DBF8-48A4-AF6C-15773410363C}
 	EndGlobalSection
 EndGlobal

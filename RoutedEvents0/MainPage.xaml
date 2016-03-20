@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="RoutedEvents0.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RoutedEvents0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontSize="48">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock Text="Left / Top" HorizontalAlignment="Left" VerticalAlignment="Top" Tapped="TextBlock_OnTapped" />
+        <TextBlock Text="Centre / Top" HorizontalAlignment="Center" VerticalAlignment="Top" Tapped="TextBlock_OnTapped" />
+        <TextBlock Text="Right / Top" HorizontalAlignment="Right" VerticalAlignment="Top" Tapped="TextBlock_OnTapped" />
+        <TextBlock Text="Left / Centre" HorizontalAlignment="Left" VerticalAlignment="Center"
+                   Tapped="TextBlock_OnTapped" />
+        <TextBlock Text="Centre / Centre" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Tapped="TextBlock_OnTapped" />
+        <TextBlock Text="Right / Centre" HorizontalAlignment="Right" VerticalAlignment="Center"
+                   Tapped="TextBlock_OnTapped" />
+        <TextBlock Text="Left / Bottom" HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                   Tapped="TextBlock_OnTapped" />
+        <TextBlock Text="Centre / Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                   Tapped="TextBlock_OnTapped" />
+        <TextBlock Text="Right / Bottom" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                   Tapped="TextBlock_OnTapped" />
+    </Grid>
+</Page>
