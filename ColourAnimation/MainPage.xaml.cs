@@ -2,7 +2,7 @@
 
 // ProgrammingWindows6thEdition: ColourAnimation
 // Created: 2016-03-20
-// Modified: 2016-03-20 5:39 PM
+// Modified: 2016-03-20 5:41 PM
 // Last modified by: Jason Moore (Jason)
 #endregion
 
